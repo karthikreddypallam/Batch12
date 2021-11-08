@@ -6,4 +6,6 @@ public interface IConstants {
 	String chromeDriverPath = System.getProperty("user.dir")+"/src/main/resources/drivers/chromedriver";
 	String firefoxDriverPath = System.getProperty("user.dir")+"/src/main/resources/drivers/geckodriver";
 	String failedScreenshots = System.getProperty("user.dir")+"/target/failedscreenshot.png";
+	String edgeDriverPath = System.getProperty("user.dir")+"/src/main/resources/drivers/geckodriver";
+
 }
