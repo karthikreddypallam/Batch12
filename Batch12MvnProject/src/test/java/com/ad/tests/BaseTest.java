@@ -17,6 +17,7 @@ public class BaseTest {
 	
 	@BeforeSuite
 	public void init() {
+		// read config
 		cfgReader = new ConfigReader();
 		cfgReader.readConfig();
 	}
